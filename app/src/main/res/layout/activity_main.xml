@@ -4,46 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@color/background_color"
     tools:context=".MainActivity">
 
 
     <soup.neumorphism.NeumorphButton
         android:id="@+id/dashboard"
+        style="@style/Widget.Neumorph.Button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Dashboard UI"
-        android:layout_gravity="center"
-        android:textSize="16dp"
         android:textColor="@color/text_color"
-        style="@style/Widget.Neumorph.Button"/>
+        android:textSize="16dp" />
 
 
-       <soup.neumorphism.NeumorphButton
-           android:id="@+id/sign1"
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/sign1"
+        style="@style/Widget.Neumorph.Button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Sign In UI"
-        android:layout_gravity="center"
-        android:textSize="16dp"
         android:textColor="@color/text_color"
-        style="@style/Widget.Neumorph.Button"/>
+        android:textSize="16dp" />
 
 
-       <soup.neumorphism.NeumorphButton
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/sign2"
+        style="@style/Widget.Neumorph.Button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Sign In UI 2"
-        android:layout_gravity="center"
-           android:id="@+id/sign2"
-        android:textSize="16dp"
         android:textColor="@color/text_color"
-        style="@style/Widget.Neumorph.Button"/>
+        android:textSize="16dp" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/musicPlayer"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Music Player"
+        android:textColor="@color/text_color"
+        android:textSize="16dp" />
+
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/cars"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Cars"
+        android:textColor="@color/text_color"
+        android:textSize="16dp" />
 
 
 </LinearLayout>

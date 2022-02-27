@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        app:neumorph_shapeType="pressed"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp">
 
@@ -23,11 +24,11 @@
             android:layout_weight="8"
             android:alignmentMode="alignMargins"
             android:background="@null"
-            android:padding="14dp"
             android:drawableStart="@drawable/ic_baseline_search_24"
             android:drawablePadding="5dp"
             android:hint="Search here"
-            android:textColorHint="@color/text_color"/>
+            android:padding="14dp"
+            android:textColorHint="@color/text_color" />
     </soup.neumorphism.NeumorphCardView>
 
     <GridLayout
@@ -168,6 +169,7 @@
                         android:background="@drawable/ic_baseline_travel_explore_24"
                         android:backgroundTint="#ffff" />
                 </LinearLayout>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
